@@ -1,0 +1,32 @@
+# This is a basic workflow to help you get started with Actions
+name: Blob storage website CI (CRA-ARC)
+
+on:
+    push:
+        branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - uses: azure/login@v1
+      with:
+          creds: ${{ secrets.AZURE_CREDENTIALS }}
+
+    - name: Upload to blob storage
+      uses: azure/CLI@v1
+      with:
+        inlineScript: |
+            az storage blob upload-batch --account-name staticwebsitehostingcra --auth-mode key -d '$web' -s .
+    - name: Purge CDN endpoint
+      uses: azure/CLI@v1
+      with:
+        inlineScript: |
+           az cdn endpoint purge --content-paths  "/*" --profile-name "cra-arc-static-hosting" --name "cra-arc-static-hosting.azureedge.net" --resource-group "cra-arc.alpha.canada.ca"
+
+  # Azure logout
+    - name: logout
+      run: |
+            az logout
+      if: always()
