@@ -18,20 +18,7 @@ jobs:
       uses: azure/CLI@v1
       with:
         inlineScript: |
-            az storage blob delete-batch --source '$web' --account-name staticwebsitehostingcra --pattern * --auth-mode key
-
-    - name: Upload to blob storage
-      uses: azure/CLI@v1
-      with:
-        inlineScript: |
-            az storage blob upload-batch --account-name staticwebsitehostingcra --auth-mode key -d '$web' -s .
-
-    - name: Purge CDN endpoint
-      uses: azure/CLI@v1
-      with:
-        inlineScript: |
-           az cdn endpoint purge --content-paths  "/*" --profile-name "cra-arc-static-hosting" --name "cra-arc-design" --resource-group "cra-arc.alpha.canada.ca"
-
+            az storage blob delete-batch --source . -d '$web' --account-name staticwebsitehostingcra --pattern * --auth-mode key
   # Azure logout
     - name: logout
       run: |
