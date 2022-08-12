@@ -14,12 +14,18 @@ jobs:
       with:
           creds: ${{ secrets.AZURE_CREDENTIALS }}
 
+    - name: Delete contents of blob storage
+      uses: azure/CLI@v1
+      with:
+        inlineScript: |
+            az storage blob delete-batch --account-name staticwebsitehostingcra --auth-mode key -d '$web' -s .
+
     - name: Upload to blob storage
       uses: azure/CLI@v1
       with:
         inlineScript: |
-            az storage blob upload-batch --account-name staticwebsitehostingcra --overwrite --auth-mode key -d '$web' -s .
-        clean_destination_folder: true
+            az storage blob upload-batch --account-name staticwebsitehostingcra --auth-mode key -d '$web' -s .
+
     - name: Purge CDN endpoint
       uses: azure/CLI@v1
       with:
