@@ -18,7 +18,8 @@ jobs:
       uses: azure/CLI@v1
       with:
         inlineScript: |
-            az storage blob delete-batch --account-name staticwebsitehostingcra --pattern * --auth-mode key --source .
+            az storage blob delete-batch --account-name staticwebsitehostingcra --source '$web' --auth-mode key
+
   # Azure logout
     - name: logout
       run: |
