@@ -23,7 +23,7 @@ jobs:
       uses: azure/CLI@v1
       with:
         inlineScript: |
-           az cdn endpoint purge --content-paths  "/*" --profile-name "cra-arc-static-hosting" --name "cra-arc-static-hosting" --resource-group "cra-arc.alpha.canada.ca"
+           az cdn endpoint purge --content-paths  "/*" --profile-name "cra-arc-static-hosting" --name "cra-arc-design" --resource-group "cra-arc.alpha.canada.ca"
 
   # Azure logout
     - name: logout
