@@ -11,6 +11,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - uses: azure/login@v1
+      run: sh echo "hello"
       with:
           creds: ${{ secrets.AZURE_CREDENTIALS }}
 
