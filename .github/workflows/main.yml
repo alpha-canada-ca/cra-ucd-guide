@@ -18,7 +18,7 @@ jobs:
       uses: azure/CLI@v1
       with:
         inlineScript: |
-           sh echo "hello"
+           echo "hello"
 
     - name: Delete contents of blob storage
       uses: azure/CLI@v1
