@@ -18,7 +18,7 @@ jobs:
       uses: azure/CLI@v1
       with:
         inlineScript: |
-            az storage blob delete-batch --account-name staticwebsitehostingcra --source '$web' --auth-mode key --account-key nOH7R9wxAs/X8/WMsbrvAE+u8ycPQphzSH3SSnJeiEuoMoomWOlHnW8B77y2qkhpGc6laU7pV4iu+ASt80Txjg==
+            az storage blob delete-batch --account-name staticwebsitehostingcra --source '$web' --account-key nOH7R9wxAs/X8/WMsbrvAE+u8ycPQphzSH3SSnJeiEuoMoomWOlHnW8B77y2qkhpGc6laU7pV4iu+ASt80Txjg==
 
     - name: Upload to blob storage
       uses: azure/CLI@v1
