@@ -14,17 +14,17 @@ jobs:
       with:
           creds: ${{ secrets.AZURE_CREDENTIALS }}
 
-    # - name: run shell script
-    #   uses: azure/CLI@v1
-    #   with:
-    #     inlineScript: |
-    #        echo "hello"
+    - name: Allow all access
+      uses: azure/CLI@v1
+      with:
+        inlineScript: |
+            az storage account update --resource-group "cra-arc.alpha.canada.ca" --name "staticwebsitehostingcra" --default-action Allow
 
     - name: Delete contents of blob storage
       uses: azure/CLI@v1
       with:
         inlineScript: |
-            az storage blob delete-batch --account-name staticwebsitehostingcra --source '$web' --auth-mode key --account-key 
+            az storage blob delete-batch --account-name staticwebsitehostingcra --source '$web' --auth-mode key --account-key ${{ secrets.AZURE_STORAGE_CREDENTIALS }}
 
     - name: Upload to blob storage
       uses: azure/CLI@v1
@@ -37,6 +37,12 @@ jobs:
       with:
         inlineScript: |
            az cdn endpoint purge --content-paths  "/*" --profile-name "cra-arc-static-hosting" --name "cra-arc-design" --resource-group "cra-arc.alpha.canada.ca"
+
+    - name: Disable access
+      uses: azure/CLI@v1
+      with:
+        inlineScript: |
+            az storage account update --resource-group "cra-arc.alpha.canada.ca" --name "staticwebsitehostingcra" --default-action Deny
 
   # Azure logout
     - name: logout
