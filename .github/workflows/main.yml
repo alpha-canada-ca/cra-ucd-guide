@@ -20,6 +20,10 @@ jobs:
         inlineScript: |
             az storage account update --resource-group "cra-arc.alpha.canada.ca" --name "staticwebsitehostingcra" --default-action Allow
 
+    - name: Sleep for 10 seconds
+      run: sleep 10s
+      shell: bash
+
     - name: Delete contents of blob storage
       uses: azure/CLI@v1
       with:
