@@ -63,7 +63,7 @@
 	color: #fff;
 	padding: 10px 20px 15px 20px;
 }
-.menu-inverse #wb-sm .menu>li a:focus, .menu-inverse #wb-sm .menu>li a:hover {
+.menu-inverse #wb-sm .menu .sm>li a:focus, .menu-inverse #wb-sm .menu .sm>li a:hover {
 	background: #333!important;
 	outline: 5px auto -webkit-focus-ring-color;
 }
@@ -143,7 +143,7 @@ ol.lst-stps.ld-zr ol.lst-stps-sub>li, .lst-stps.ld-zr .lst-stps-itm {
 ol.lst-stps.ld-zr>li, ol.lst-stps.ld-zr ol.lst-stps-sub>li, .lst-stps.ld-zr .lst-stps-itm {
 	min-height: 4em;
 }
-ol.lst-stps li:not(:first-child), .lst-stps .lst-stps-itm:not(:first-child) {
+ol.lst-stps>li:not(:first-child), ol.lst-stps-sub>li:not(:first-child), .lst-stps .lst-stps-itm:not(:first-child) {
 	margin-top: 20px;
 }
 ol.lst-stps.ld-zr>li:not(:first-child), .lst-stps.ld-zr .lst-stps-itm:not(:first-child) {
