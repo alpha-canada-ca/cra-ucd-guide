@@ -2,9 +2,9 @@
 //Function to add title and menu of guide and footer
 	"use strict";
 		if (document.documentElement.lang === "en") {
-		var index = ["/design/assets/includes/menu-include-en.html", "/design/assets/includes/footer-include-en.html"];
+		var index = ["/assets/includes/menu-include-en.html", "/assets/includes/footer-include-en.html"];
 }
-if (document.documentElement.lang === "fr") {var index = ["/design/assets/includes/menu-include-fr.html", "/design/assets/includes/footer-include-fr.html"];}
+if (document.documentElement.lang === "fr") {var index = ["/assets/includes/menu-include-fr.html", "/assets/includes/footer-include-fr.html"];}
 		var injectSpot = ["menu-include", "footer-include"];
 var request = new XMLHttpRequest();
 
