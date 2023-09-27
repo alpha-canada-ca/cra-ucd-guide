@@ -20,7 +20,7 @@
     "title_fr": "Élargissement et mise à jour des lignes directrices relatives au modèle de navigation de style métro",
     "description_en": "Guidance on using the subway template for task-based content on Canada.ca. Includes guidance on determing the architecture for your content, creating the index page and step pages, and when and how to create sub-pages. ",
     "description_fr": "Des lignes directrices sur l'utilisation du modèle de navigation de style métro pour le contenu axé sur les tâches sur Canada.ca. Comprend des lignes directrices pour choisir l'architecture de votre contenu, la création de la page d'index et des pages d'étape, ainsi que sur quand et comment créer des sous-pages. ",
-    "linkText_en": "Subway",
+    "linkText_en": "Subway pattern",
     "linkUrl_en": "../design-systems/gcweb/subway/index.html",
     "linkText_fr": "Navigation de style métro",
     "linkUrl_fr": "../systemes-conception/gcweb/metro/index.html",
