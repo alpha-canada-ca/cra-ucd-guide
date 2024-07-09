@@ -1,5 +1,37 @@
 [
   {
+    "title_en": "Moved the contractions guidelines to the Short forms page",
+    "title_fr": "Déplacement des lignes directrices sur les contractions à la page sur les formules abrégées",
+    "description_en": "Guidance on contractions has been moved from the Punctuation page to the Short forms page. A recovery link is still available on the Punctuation page.",
+    "description_fr": "Changements faits seulement sur la page en anglais. Les lignes directrices sur les contractions ont été déplacées de la page sur la ponctuation à la page sur les formules abrégées.",
+    "linkText_en": "Contractions",
+    "linkUrl_en": "../writing/short-forms.html#h_2",
+    "linkText_fr": "Contractions (en anglais)",
+    "linkUrl_fr": "../../en/writing/short-forms.html#h_2",
+    "date_en": "July 9, 2024",
+    "date_fr": "9 juillet 2024",
+    "modified_en": "Updated",
+    "modified_fr": "Mises à jour",
+    "keywords_en": "contractions, punctuation, short forms, abbreviation, moved content, reorganized content",
+    "keywords_fr": "contraction, ponctuation, formule abrégée, abréviation, contenu déplacé, réorganisation, contenu réorganisé"
+  },
+    {
+    "title_en": "Reorganized the Short forms page content",
+    "title_fr": "Réorganisation du contenu de la page sur les formules abrégées",
+    "description_en": "The headings were revised and the content was reordered to improve clarity on the Short forms page.",
+    "description_fr": "Changements faits seulement sur la page en anglais. Les titres ont été révisés et le contenu a été réorganisé afin d’améliorer la clarté de la page sur les formules abrégées.",
+    "linkText_en": "Short forms",
+    "linkUrl_en": "../writing/short-forms.html",
+    "linkText_fr": "Short forms (en anglais)",
+    "linkUrl_fr": "../../en/writing/short-forms.html",
+    "date_en": "July 9, 2024",
+    "date_fr": "9 juillet 2024",
+    "modified_en": "Updated",
+    "modified_fr": "Mises à jour",
+    "keywords_en": "contractions, punctuation, short forms, abbreviation, moved content, reorganized content",
+    "keywords_fr": "contraction, ponctuation, formule abrégée, abréviation, contenu déplacé, réorganisation, contenu réorganisé"
+  },
+  {
     "title_en": "Published the first UCD blog article: “Creating Accessible Web Content”",
     "title_fr": "Publication du premier article de blogue sur la conception axée sur l'utilisateur : « Créer un contenu Web accessible »",
     "description_en": "The first article in the User-Centred Design blog details how to improve the accessibility of your web content with these common structural and labeling best practices.",
