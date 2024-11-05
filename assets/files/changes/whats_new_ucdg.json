@@ -1,5 +1,37 @@
 [
 {
+    "title_en": "Added guidance on considering both official languages when creating lists",
+    "title_fr": "Ajout de directives sur la prise en considération des deux langues officielles lors de la création d'une liste",
+    "description_en": "New guidelines have been added about considering both official languages to ensure a similar web experience.",
+    "description_fr": "De nouvelles lignes directrices ont été ajoutées concernant la prise en considération des deux langues officielles pour assurer une expérience Web similaire.",
+    "linkText_en": "Lists",
+    "linkUrl_en": "../design-systems/gcweb/lists/index.html",
+    "linkText_fr": "Listes",
+    "linkUrl_fr": "../systemes-conception/gcweb/listes/index.html",
+    "date_en": "November 5, 2024",
+    "date_fr": "5 novembre 2024",
+    "modified_en": "New",
+    "modified_fr": "Nouveau",
+    "keywords_en": "official languages, web experience, bilingual content, lists, word order",
+    "keywords_fr": "langues officielles, expérience Web, contenu bilingue, listes, ordre des mots"
+  },
+  {
+    "title_en": "Added guidance on considering both official languages when choosing headings and titles",
+    "title_fr": "Ajout de directives sur la prise en considération des deux langues officielles lors de la création de titres et de sous-titres",
+    "description_en": "New guidelines have been added about considering both official languages to ensure a similar web experience.",
+    "description_fr": "De nouvelles lignes directrices ont été ajoutées concernant la prise en considération des deux langues officielles pour assurer une expérience Web similaire.",
+    "linkText_en": "Headings and titles",
+    "linkUrl_en": "../design-systems/gcweb/headings-titles/index.html",
+    "linkText_fr": "Titres et sous-titres",
+    "linkUrl_fr": "../systemes-conception/gcweb/titres-sous-titres/index.html",
+    "date_en": "November 5, 2024",
+    "date_fr": "5 novembre 2024",
+    "modified_en": "New",
+    "modified_fr": "Nouveau",
+    "keywords_en": "official languages, web experience, bilingual content, headings, titles, word order",
+    "keywords_fr": "langues officielles, expérience Web, contenu bilingue, titres, sous-titres, ordre des mots"
+  },
+{
     "title_en": "Published a new UCD blog article: “Designing in Canada's official languages”",
     "title_fr": "Publication d'un nouvel article de blogue sur la conception axée sur l'utilisateur\u00a0: «\u00a0Concevoir du contenu dans les langues officielles du Canada\u00a0»",
     "description_en": "Learn about 6 stylistic trends specific to English and French that you should be aware of when preparing content that will be available in both languages.",
@@ -13,7 +45,7 @@
     "modified_en": "New",
     "modified_fr": "Nouveau",
     "keywords_en": "French, english, bilingual, bilingualism, translation, translating",
-    "keywords_fr": "Français, anglais, bilingue, bilinguisme, traduction"
+    "keywords_fr": "Français, anglais, bilingue, bilinguisme, traduction, traduction"
   },
   {
     "title_en": "Moved the contractions guidelines to the Short forms page",
