@@ -12,8 +12,8 @@
     "date_fr": "2 décembre 2024",
     "modified_en": "New",
     "modified_fr": "Nouveau",
-    "keywords_en": "field flow, checklist, eligibility",
-    "keywords_fr": "field flow, critères d'admissibilité"
+    "keywords_en": "field flow, checklist, eligibility, design-system",
+    "keywords_fr": "field flow, critères d'admissibilité, système-de-conception"
   },
 {
     "title_en": "Published alerts guidance",
@@ -28,8 +28,8 @@
     "date_fr": "2 décembre 2024",
     "modified_en": "New",
     "modified_fr": "Nouveau",
-    "keywords_en": "",
-    "keywords_fr": ""
+    "keywords_en": "design-system",
+    "keywords_fr": "système-de-conception"
   },
 {
     "title_en": "Published tables guidance",
@@ -44,8 +44,8 @@
     "date_fr": "2 décembre 2024",
     "modified_en": "New",
     "modified_fr": "Nouveau",
-    "keywords_en": "cell, format, organize, charts, spreadsheet, excel",
-    "keywords_fr": "cellule, formater, organisation, organiser, graphiques, tableaux, feuille de calcul, excel"
+    "keywords_en": "cell, format, organize, charts, spreadsheet, excel, design-system",
+    "keywords_fr": "cellule, formater, organisation, organiser, graphiques, tableaux, feuille de calcul, excel, système-de-conception"
   },
 {
     "title_en": "Added guidance on considering both official languages when creating lists",
@@ -60,8 +60,8 @@
     "date_fr": "5 novembre 2024",
     "modified_en": "New",
     "modified_fr": "Nouveau",
-    "keywords_en": "official languages, web experience, bilingual content, lists, word order",
-    "keywords_fr": "langues officielles, expérience Web, contenu bilingue, listes, ordre des mots"
+    "keywords_en": "official languages, web experience, bilingual content, lists, word order, design-system, writing",
+    "keywords_fr": "langues officielles, expérience Web, contenu bilingue, listes, ordre des mots, système-de-conception, rédaction"
   },
   {
     "title_en": "Added guidance on considering both official languages when choosing headings and titles",
@@ -92,8 +92,8 @@
     "date_fr": "17 octobre 2024",
     "modified_en": "New",
     "modified_fr": "Nouveau",
-    "keywords_en": "French, english, bilingual, bilingualism, translation, translating",
-    "keywords_fr": "Français, anglais, bilingue, bilinguisme, traduction, traduction"
+    "keywords_en": "French, english, bilingual, bilingualism, translation, translating, writing, other",
+    "keywords_fr": "Français, anglais, bilingue, bilinguisme, traduction, traduction, rédaction, autre"
   },
   {
     "title_en": "Moved the contractions guidelines to the Short forms page",
@@ -108,8 +108,8 @@
     "date_fr": "9 juillet 2024",
     "modified_en": "Updated",
     "modified_fr": "Mises à jour",
-    "keywords_en": "contractions, punctuation, short forms, abbreviation, moved content, reorganized content",
-    "keywords_fr": "contraction, ponctuation, formule abrégée, abréviation, contenu déplacé, réorganisation, contenu réorganisé"
+    "keywords_en": "contractions, punctuation, short forms, abbreviation, moved content, reorganized content, writing",
+    "keywords_fr": "contraction, ponctuation, formule abrégée, abréviation, contenu déplacé, réorganisation, contenu réorganisé, rédaction"
   },
     {
     "title_en": "Reorganized the Short forms page content",
@@ -124,8 +124,8 @@
     "date_fr": "9 juillet 2024",
     "modified_en": "Updated",
     "modified_fr": "Mises à jour",
-    "keywords_en": "contractions, punctuation, short forms, abbreviation, moved content, reorganized content",
-    "keywords_fr": "contraction, ponctuation, formule abrégée, abréviation, contenu déplacé, réorganisation, contenu réorganisé"
+    "keywords_en": "contractions, punctuation, short forms, abbreviation, moved content, reorganized content, writing",
+    "keywords_fr": "contraction, ponctuation, formule abrégée, abréviation, contenu déplacé, réorganisation, contenu réorganisé, rédaction"
   },
   {
     "title_en": "Published the first UCD blog article: “Creating Accessible Web Content”",
@@ -140,8 +140,8 @@
     "date_fr": "27 mai 2024",
     "modified_en": "New",
     "modified_fr": "Nouveau",
-    "keywords_en": "developers, Web Content Accessibility Guideline, WCAG",
-    "keywords_fr": "développeurs, Web Content Accessibility Guideline, WCAG"
+    "keywords_en": "developers, Web Content Accessibility Guideline, WCAG, design-system, writing, other",
+    "keywords_fr": "développeurs, Web Content Accessibility Guideline, WCAG, système-de-conception, rédaction, autre"
   },
   {
     "title_en": "Launched the User-Centred Design Blog",
@@ -156,8 +156,8 @@
     "date_fr": "27 mai 2024",
     "modified_en": "New",
     "modified_fr": "Nouveau",
-    "keywords_en": "post",
-    "keywords_fr": "publication"
+    "keywords_en": "post, other",
+    "keywords_fr": "publication, autre"
   },
   {
     "title_en": "Added guidance for redacted content and strikethrough text",
@@ -172,7 +172,7 @@
     "date_fr": "30 avril 2024",
     "modified_en": "Updated",
     "modified_fr": "Mises à jour",
-    "keywords_en": "design-system, redaction",
+    "keywords_en": "design-system, writing",
     "keywords_fr": "système-de-conception, rédaction"
   },
   {
