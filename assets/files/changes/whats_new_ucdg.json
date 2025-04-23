@@ -1,5 +1,21 @@
 [
 {
+    "title_en": "Published a new UCD blog article: Summarizing user feedback with generative AI",
+    "title_fr": "Publication d'un nouvel article de blogue sur la conception axée sur l'utilisateur: Résumer la rétroaction des utilisateurs au moyen de l’IA générative",
+    "description_en": "This blog post explores a case study where content designers used generative artificial intelligence (Gen AI) to help analyze over 93,000 pieces of user feedback, leveraging insights to improve content on Canada.ca.",
+    "description_fr": "Cet article de blogue concerne une étude de cas dans le cadre de laquelle les concepteurs de contenu ont utilisé l’intelligence artificielle (IA) générative pour aider à analyser plus de 93 000 commentaires des utilisateurs dont ils ont tiré parti pour améliorer le contenu sur Canada.ca.",
+    "linkText_en": "Summarizing user feedback with generative AI",
+    "linkUrl_en": "../blog/2025-04-summarizing-user-feedback-with-generative-ai.html",
+    "linkText_fr": "Résumer la rétroaction des utilisateurs au moyen de l’IA générative",
+    "linkUrl_fr": "../blogue/2025-04-resumer-retroaction-utilisateurs-moyen-ia-generative.html",
+    "date_en": "April 17, 2025",
+    "date_fr": "17 avril 2025",
+    "modified_en": "New",
+    "modified_fr": "Nouveau",
+    "keywords_en": "GenAI, generative AI, artificial intelligence, user feedback, page feedback, discovery phase, user research, UX research",
+    "keywords_fr": "IA générative, intelligence artificielle, rétroaction des utilisateurs, rétroaction sur la page, phase Découvrir, recherche utilisateur, recherche sur l’expérience utilisateur"
+  },
+{
     "title_en": "Published interactive questions guidance",
     "title_fr": "Publication de lignes directrices sur les questions interactives",
     "description_en": "Interactive questions are used to present people with a sequence of simple questions that leads to the specific answer they need to continue with or complete their task.",
@@ -49,8 +65,8 @@
   },
 {
     "title_en": "Added guidance on considering both official languages when creating lists",
-    "title_fr": "Ajout de directives sur la prise en considération des deux langues officielles  lors de la création d'une liste",
-    "description_en": "New guidelines have been added about considering both official languages to ensure a similar web  experience.",
+    "title_fr": "Ajout de directives sur la prise en considération des deux langues officielles lors de la création d'une liste",
+    "description_en": "New guidelines have been added about considering both official languages to ensure a similar web experience.",
     "description_fr": "De nouvelles lignes directrices ont été ajoutées concernant la prise en considération des deux langues officielles pour assurer une expérience Web similaire.",
     "linkText_en": "Lists",
     "linkUrl_en": "../design-systems/gcweb/lists/index.html",
