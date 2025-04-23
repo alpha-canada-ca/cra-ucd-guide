@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<!--[if lt IE 9]>
+<html class="no-js lt-ie9" lang="en" dir="ltr">
+   <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="fr" dir="ltr">
+<!--<![endif]-->
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-NEXGY36077"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'G-NEXGY36077');
+    </script>
+    <meta charset="utf-8">
+    <!-- Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
+		wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licence-fr.html -->
+    <title>Résumer la rétroaction des utilisateurs au moyen de l’IA générative – Guide de conception axée sur l'utilisateur de l'ARC</title>
+    <meta content="width=device-width,initial-scale=1" name="viewport">
+    <meta name="dcterms.language" title="ISO639-2/T" content="eng">
+    <meta name="dcterms.title" content="Résumer la rétroaction des utilisateurs au moyen de l’IA générative">
+    <meta name="dcterms.description" content="">
+    <meta name="robots" content="noindex, nofollow">
+    <!--[if gte IE 9 | !IE ]><!-->
+    <link href="https://wet-boew.github.io/themes-dist/GCWeb/GCWeb/assets/favicon.ico" rel="icon" type="image/x-icon">
+    <link rel="stylesheet" href="https://wet-boew.github.io/themes-dist/GCWeb/GCWeb/css/theme.min.css">
+    <!--Custom UCDG styles //-->
+    <link rel="stylesheet" href="../../assets/css/ucdg-theme.css">
+    <noscript>
+        <link rel="stylesheet" href="https://wet-boew.github.io/themes-dist/GCWeb/GCWeb/css/theme.min.css">
+    </noscript>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <!--Custom UCDG script //-->
+    <script src="../../assets/js/ucdg.js"></script>
+</head>
+
+<body vocab="http://schema.org/" typeof="WebPage">
+    <ul id="wb-tphp">
+        <li class="wb-slc"> <a class="wb-sl" href="#wb-cont">Passer au contenu principal</a></li>
+        <li class="wb-slc"> <a class="wb-sl" href="#wb-info">Passer à «&nbsp;Au sujet du gouvernement&nbsp;»</a></li>
+    </ul>
+    <header class="menu-inverse">
+        <div id="wb-bnr" class="container">
+            <section id="wb-lng" class="text-right">
+                <h2 class="wb-inv">Sélection de la langue</h2>
+                <div class="row">
+                    <div class="col-md-12">
+                        <ul class="list-inline margin-bottom-none">
+                            <li><a lang="en" href="../../en/blog/2025-04-summarizing-user-feedback-with-generative-ai.html">English</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <div id="menu-include"></div>
+        </div>
+        <div class="container">
+            <nav id="wb-bc" property="breadcrumb">
+                <h2>Vous êtes ici&nbsp;:</h2>
+                <ol class="breadcrumb">
+                    <li><a href="../index.html">Guide de conception axée sur l'utilisateur de l'ARC</a></li>
+                    <li><a href="index.html">Blogue</a></li>
+                </ol>
+            </nav>
+        </div>
+    </header>
+    <main property="mainContentOfPage">
+
+        <div class="container">
+            <h1 property="name" id="wb-cont" class="gc-thickline">Résumer la rétroaction des utilisateurs au moyen de l’IA générative</h1>
+
+            <p>Résumé&nbsp;: Cet article de blogue concerne une étude de cas dans le cadre de laquelle les concepteurs de contenu ont utilisé l’intelligence artificielle (IA) générative pour aider à analyser plus de 93&nbsp;000&nbsp;commentaires des utilisateurs dont ils ont tiré parti pour améliorer le contenu sur Canada.ca. </p>
+
+            <p>Collaborateurs&nbsp;:</p>
+
+            <ul>
+                <li>Stratégie et engagement - DCPN (<a href="mailto:StratEngageDCDS-StratEngageSCCN@cra-arc.gc.ca">StratEngageDCDS-StratEngageSCCN@cra-arc.gc.ca</a>)</li>
+            </ul>
+
+            <h2>Sur cette page</h2>
+
+            <ul>
+                <li><a href="#h1">Cerner les besoins des utilisateurs et optimiser le contenu</a></li>
+                <li><a href="#h2">Utiliser la rétroaction sur les pages pour améliorer le contenu</a></li>
+                <li><a href="#h3">Étude de cas&nbsp;: utilisation de l’IA générative pour analyser la rétroaction sur la page Mon dossier</a>
+                    <ul>
+                        <li><a href="#h3-1">Le défi&nbsp;: le nombre élevé de commentaires</a></li>
+                        <li><a href="#h3-2">La solution&nbsp;: simplifier le processus avec l’IA générative</a></li>
+                        <li><a href="#h3-3">Le résultat&nbsp;: amélioration de l’expérience utilisateur grâce à l’IA</a></li>
+                    </ul>
+                </li>
+                <li><a href="#h4">L’IA à l’ARC</a></li>
+            </ul>
+
+            <h2 id="h1">Cerner les besoins des utilisateurs et optimiser le contenu</h2>
+
+            <p>À l’ARC, nous suivons le <a href="../processus/optimisation-contenu/index.html">processus de conception axée sur l’utilisateur (CAU)</a> pour veiller à ce que le contenu numérique réponde aux besoins des utilisateurs. L’une des principales façons d’y arriver est de réaliser des projets d’optimisation du contenu (POC), où les concepteurs de contenu, les développeurs Web, les experts de programmes, les analystes de données et les chercheurs de l’expérience utilisateur collaborent pour améliorer certaines des pages les plus consultées sur Canada.ca.</p>
+
+            <p>Au cours d’un POC, les équipes suivent le processus de CAU pour veiller à ce que les besoins des utilisateurs demeurent la priorité lorsque des changements sont apportés au contenu. Cette approche permet aux utilisateurs de trouver plus facilement des renseignements et d’accomplir des tâches sur notre site Web sans avoir à communiquer avec un centre d’appels pour obtenir de l’aide.</p>
+
+            <p>Une étape clé de ce processus est la phase <strong>Découvrir</strong>, qui comprend des activités de recherche visant à déterminer quel contenu Web pourrait avoir besoin d’être amélioré.</p>
+
+
+            <h2 id="h2">Utiliser la rétroaction sur les pages pour améliorer le contenu</h2>
+
+            <p>Lors de la mise à jour du contenu Web, il est essentiel d’examiner les commentaires des utilisateurs réels - cela aide à cerner les défis que doivent relever les utilisateurs et constitue une activité clé de la phase <strong>Découvrir</strong> du processus de CAU.</p>
+
+            <p>Au bas de chaque page Web de l’ARC, il y a un formulaire de rétroaction dans lequel on demande aux utilisateurs : «&nbsp;Avez-vous trouvé ce que vous cherchiez?&nbsp;» Si les utilisateurs sélectionnent «&nbsp;non&nbsp;», ils peuvent fournir des détails sur leurs défis. Cette rétroaction joue un rôle crucial dans la création d’un contenu accessible et efficace. </p>
+
+            <p>L’analyse de ces données aide les équipes à :</p>
+
+            <ul>
+                <li>comprendre les problèmes spécifiques auxquels sont confrontés les utilisateurs</li>
+                <li>cerner les lacunes du contenu et les problèmes de convivialité</li>
+                <li>fournir une justification fondée sur des données probantes pour les changements apportés au contenu</li>
+                <li>mesurer l’incidence des changements apportées au contenu après leur mise en œuvre</li>
+            </ul>
+
+            <h2 id="h3">Étude de cas&nbsp;: utilisation de l’IA générative pour analyser la rétroaction sur la page Mon dossier</h2>
+
+            <p>Lorsque l’équipe de CAU a commencé l’optimisation des pages <strong>Mon dossier, Mon dossier d’entreprise</strong> et <strong>Représenter un client</strong> sur le site Canada.ca, elle s’est tournée vers l’IA générative pendant la phase Découvrir pour l’aider à cerner les problèmes rencontrés par les utilisateurs, en vue de tenter de les résoudre.</p>
+
+            <h3 id="h3-1">Le défi&nbsp;: le nombre élevé de commentaires</h3>
+
+            <p>L’outil de rétroaction sur la page recueille une grande quantité de données pour l’ARC. En seulement 6&nbsp;mois, nous pouvons recevoir jusqu’à 500&nbsp;000&nbsp;commentaires concernant nos pages.</p>
+
+            <p>Lorsqu’elle a examiné les problèmes des utilisateurs sur les pages ciblées, l’équipe de CAU a dû analyser plus de 93&nbsp;000&nbsp;commentaires. Une stratège a passé 50&nbsp;heures à examiner manuellement les commentaires et à cerner les problèmes. Bien qu’elle ait été en mesure de comprendre de façon générale les problèmes liés au contenu, cet examen manuel comportait le risque d’omettre des renseignements et ne constituait pas une utilisation efficace des ressources pendant le projet.</p>
+
+
+            <h3 id="h3-2">La solution&nbsp;: simplifier le processus avec l’IA générative</h3>
+
+            <p>L’équipe a décidé de tirer parti d’un outil d’IA générative pour accélérer ce processus et obtenir plus de renseignements. Les objectifs étaient les suivants&nbsp;:</p>
+
+            <ul>
+                <li>Fournir aux équipes de programme et celles chargées de la conception des renseignements clairs et résumés sur les défis auxquels les utilisateurs font face en consultant les pages</li>
+                <li>Expérimenter l’utilisation de l’IA générative dans la phase Découvrir</li>
+            </ul>
+
+            <p>Les stratèges de contenu ont examiné tous les commentaires pour s’assurer qu’ils ne contenaient aucun renseignement personnel ou de nature délicate. Ensuite, ils ont catégorisé les commentaires à l’aide de techniques d’apprentissage automatique. Ils ont ensuite demandé à l’outil d’IA générative d’examiner, de classer et de résumer de grands ensembles de commentaires, en mettant l’accent sur les éléments suivants&nbsp;:</p>
+
+            <ul>
+                <li>Identifier les principaux problèmes rencontrés par les utilisateurs</li>
+                <li>Regrouper les thèmes connexes pour une analyse plus approfondie</li>
+                <li>Résumer les principaux défis des utilisateurs</li>
+                <li>Proposer des recommandations réalisables</li>
+            </ul>
+
+            <h3 id="h3-3">Le résultat&nbsp;: amélioration de l’expérience utilisateur grâce à l’IA</h3>
+
+            <p>L’analyse effectuée par l’IA a permis de relever 10&nbsp;problèmes dans le contenu, dont 2 qui étaient considérablement plus signalés : les utilisateurs ont eu de la difficulté à se connecter et à s’inscrire à leur compte de l’ARC. Par exemple, même si le contenu existant fournissait des directives détaillées relatives à l’inscription, les utilisateurs avaient de la difficulté à trouver un lien ou un bouton pour lancer le processus.</p>
+
+            <p>En s’appuyant sur ces renseignements, ainsi que sur les essais d’utilisateurs, la collaboration avec les collègues des centres d’appels et d’autres activités de collecte de données, les concepteurs de contenu ont réorganisé la page d’inscription en ajoutant un bouton d’inscription plus saillant. Cette optimisation a aidé l’ARC à atteindre les objectifs suivants&nbsp;:</p>
+
+
+            <ul>
+                <li>Diminution de 51&nbsp;% des commentaires négatifs liés à l’inscription</li>
+                <li>Réduction de 42&nbsp;% du nombre d’appels à l’ARC par 100 visites, ce qui libère des ressources précieuses dans les centres d’appels</li>
+            </ul>
+
+            <p>Grâce à ce travail, les utilisateurs peuvent maintenant s’inscrire plus facilement au compte de l’ARC. Notre équipe de CAU a aussi été en mesure de démontrer le potentiel de l’IA pour simplifier certaines parties du processus de CAU. </p>
+
+            <h2 id="h4">L’IA à l’ARC</h2>
+
+            <p>Les directives de l’ARC sur l’utilisation de l’IA évoluent, mais ce cas constitue une première étape importante pour comprendre comment l’IA peut aider à optimiser le contenu. En tirant parti de l’IA pour analyser la rétroaction, déterminer les tendances et générer des renseignements exploitables, nous pouvons prendre des décisions éclairées et axées sur l’utilisateur lors de la conception du contenu sur Canada.ca de façon plus efficace.</p>
+
+            <p>Si vous souhaitez en savoir plus sur l’utilisation de l’IA pour le contenu et la conception, restez à l’affût des mises à jour de la Direction de la conception et de la production numériques.</p>
+
+            <p>Avant d’utiliser l’IA dans le cadre de vos tâches à l’ARC, consultez les <a href="https://infozone.omega.dce-eir.net/francais/frames/crprt_plcs/brnch08/gdlns_mply_nln_gnrtv_rtfcl_ntllgnc-f.html">lignes directrices sur l'utilisation de l'intelligence artificielle générative en ligne par les employés</a>. Des ressources, des conseils et de l’information supplémentaires sur l’IA se trouvent dans <a href="https://infozone.omega.dce-eir.net/francais/r9999999/imrc/data/rtfcl_ntllgnc-fra.html">InfoZone</a>.</p>
+
+
+        </div>
+
+        <div class="container">
+            <div class="pagedetails">
+                <dl id="wb-dtmd">
+                    <dt>Date de modification&nbsp;: &#32;</dt>
+                    <dd>
+                        <time property="dateModified">2025-04-17</time>
+                    </dd>
+                </dl>
+            </div>
+        </div>
+    </main>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.js"></script>
+    <script src="https://wet-boew.github.io/themes-dist/GCWeb/wet-boew/js/wet-boew.min.js"></script>
+    <script src="https://wet-boew.github.io/themes-dist/GCWeb/GCWeb/js/theme.min.js"></script>
+    <div id="footer-include"></div>
+</body>
+
+</html>
