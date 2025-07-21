@@ -1,4 +1,36 @@
 [
+  {
+    "title_en": "Updated plain language guidance",
+    "title_fr": "Mise à jour des lignes directrices sur le langage clair et simple",
+    "description_en": "Guidance updated to improve overall clarity, including adding images and examples to provide additional support.",
+    "description_fr": "Les lignes directrices ont été mises à jour pour améliorer la clarté globale et des images et des exemples ont été ajoutés afin de fournir un soutien supplémentaire.",
+    "linkText_en": "Plain language",
+    "linkUrl_en": "../writing/plain-language/index.html",
+    "linkText_fr": "Langage clair et simple",
+    "linkUrl_fr": "../redaction/langage-clair-simple/index.html",
+    "date_en": "July 17, 2025",
+    "date_fr": "17 juillet 2025",
+    "modified_en": "Updated",
+    "modified_fr": "Mises à jour",
+    "keywords_en": "writing",
+    "keywords_fr": "rédaction"
+  },
+  {
+    "title_en": "Added guidance for the use of slashes",
+    "title_fr": "Ajout de lignes directrices sur l’utilisation des barres obliques",
+    "description_en": "New guidelines have been added to the punctuation page to provide guidance for the use of slashes.",
+    "description_fr": "De nouvelles lignes directrices ont été ajoutées à la page Ponctuation pour fournir des directives sur l’utilisation des barres obliques.",
+    "linkText_en": "Punctuation",
+    "linkUrl_en": "../writing/punctuation.html#h_8",
+    "linkText_fr": "Ponctuation",
+    "linkUrl_fr": "../redaction/ponctuation.html#h_6",
+    "date_en": "July 17, 2025",
+    "date_fr": "17 juillet 2025",
+    "modified_en": "New",
+    "modified_fr": "Nouveau",
+    "keywords_en": "writing",
+    "keywords_fr": "rédaction"
+  },
 {
     "title_en": "Published a new UCD blog article: Summarizing user feedback with generative AI",
     "title_fr": "Publication d'un nouvel article de blogue sur la conception axée sur l'utilisateur: Résumer la rétroaction des utilisateurs au moyen de l’IA générative",
